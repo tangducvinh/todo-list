@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.search {
+  position: relative;
+}
+
 .input-search {
   height: 40px;
   width: 200px;
@@ -60,6 +64,14 @@
   caret-color: #fff;
   color: #fff;
   font-size: 15px;
+}
+
+.warning-text {
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
+  color: red;
+  font-size: 14px;
 }
 
 .btn-add {
